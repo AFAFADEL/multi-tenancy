@@ -77,5 +77,7 @@ kubectl port-forward pod/frontend-pod 8082:80 -n dev
 <img width="1835" height="937" alt="bonas1-1" src="https://github.com/user-attachments/assets/9652c089-9535-4052-acea-207836deb8ba" />
 
 <img width="2404" height="1138" alt="bonas1" src="https://github.com/user-attachments/assets/13efe8f0-8660-4803-befa-a584bf52b427" />
+<img width="1538" height="634" alt="image" src="https://github.com/user-attachments/assets/0dbe2736-905c-4d1c-895b-1a752d7dd6b7" />
+
 
 

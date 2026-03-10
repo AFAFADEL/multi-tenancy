@@ -74,3 +74,7 @@ kubectl get pods,svc -n staging
 kubectl port-forward pod/frontend-pod 8082:80 -n dev
 ```
 - open your browser at localhost:8082 then take the screenshot
+- <img width="2404" height="1138" alt="bonas1" src="https://github.com/user-attachments/assets/55fb0508-7a4e-4568-8dae-4b31d89e5592" />
+<img width="2404" height="1138" alt="bonas1" src="https://github.com/user-attachments/assets/13efe8f0-8660-4803-befa-a584bf52b427" />
+
+

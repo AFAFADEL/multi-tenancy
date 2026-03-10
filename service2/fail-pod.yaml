@@ -1,0 +1,16 @@
+# Fixed fail-pod.yaml
+apiVersion: v1
+kind: Pod
+metadata:
+  name: fail-pod
+spec:
+  containers:
+  - name: app
+    image: busybox
+    command: ["sh", "-c", "echo Hello > /data/hello.txt && sleep 3600"]
+    volumeMounts:
+    - mountPath: /data
+      name: data-volume
+  volumes:
+  - name: data-volume
+    emptyDir: {}
